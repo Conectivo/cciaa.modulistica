@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: cciaa.modulistica\n"
-"POT-Creation-Date: 2011-06-24 13:58+0000\n"
+"POT-Creation-Date: 2013-01-10 18:36+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: Luca Fabbri <keul@redturtle.it>\n"
 "Language-Team: RedTurtle Technology <sviluppoplone@redturtle.it>\n"
@@ -22,7 +22,7 @@ msgstr "CCIAA: Vista modulistica"
 msgid "Downloadable forms view"
 msgstr "Vista modulistica"
 
-#: ../browser/modulistica.py:92
+#: ../browser/modulistica.py:102
 msgid "External link"
 msgstr "Collegamento esterno"
 
@@ -37,7 +37,7 @@ msgid "Some additional feature, mainly a new view, for make easy the download of
 msgstr "Qualche funzionalità aggiunta, principalente una vista, per gestire facilmente la modulistica scaricabile"
 
 #. Default: "Download the file ${title}"
-#: ../browser/modulistica.py:32
+#: ../browser/modulistica.py:42
 msgid "download_message"
 msgstr "Scarica il file ${title}"
 
@@ -46,7 +46,7 @@ msgid "external link"
 msgstr "collegamento esterno"
 
 #. Default: "Go to link ${title}"
-#: ../browser/modulistica.py:36
+#: ../browser/modulistica.py:46
 msgid "goto_message"
 msgstr "Vai al collegamento ${title}"
 

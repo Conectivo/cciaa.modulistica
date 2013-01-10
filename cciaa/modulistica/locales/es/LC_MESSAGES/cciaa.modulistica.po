@@ -1,0 +1,67 @@
+# Spanish translation for cciaa.modulistica
+# Leonardo J. Caballero G. <leonardocaballero@gmail.com>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: cciaa.modulistica\n"
+"POT-Creation-Date: 2013-01-10 18:36+0000\n"
+"PO-Revision-Date: 2013-01-09 01:31-0430\n"
+"Last-Translator: Leonardo J. Caballero G. <leonardocaballero@gmail.com>\n"
+"Language-Team: Leonardo J. Caballero G.\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language-Code: es\n"
+"Language-Name: Spanish\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: cciaa.modulistica\n"
+"Language: es\n"
+"X-Generator: Virtaal 0.7.1\n"
+"X-Is-Fallback-For: es-ar es-bo es-cl es-co es-cr es-do es-ec es-es es-sv es-gt es-hn es-mx es-ni es-pa es-py es-pe es-pr es-us es-uy es-ve\n"
+
+msgid "CCIAA: Downloadable Forms view"
+msgstr "CCIAA: Vista de formatos a descargar"
+
+msgid "Downloadable forms view"
+msgstr "Vista de formatos a descargar"
+
+#: ../browser/modulistica.py:102
+msgid "External link"
+msgstr "Enlace externo"
+
+#: ../browser/cciaa_modulistica_view.pt:99
+msgid "Link"
+msgstr "Enlace"
+
+msgid "Show and organize files in the folder."
+msgstr "Mostra y organiza los archivos en una carpeta."
+
+msgid "Some additional feature, mainly a new view, for make easy the download of forms and documents"
+msgstr "Algunas característica adicional, sobre todo una nueva vista, para facilitar la descarga de formularios y documentos"
+
+#. Default: "Download the file ${title}"
+#: ../browser/modulistica.py:42
+msgid "download_message"
+msgstr "Descarga el archivo ${title}"
+
+#: ../browser/cciaa_modulistica_view.pt:174
+msgid "external link"
+msgstr "enlace externo"
+
+#. Default: "Go to link ${title}"
+#: ../browser/modulistica.py:46
+msgid "goto_message"
+msgstr "Ir al enlace ${title}"
+
+#. Default: "Put there, one per line (up to 4), columns titles that must be put on the top of the created tables when using the files views. \nNot providing those values will not display any table headers."
+#: ../extender.py:28
+msgid "help_cciaafolder_columnstitles"
+msgstr ""
+"Pon allí, uno por línea (hasta 4), las columnas de los títulos que se deben poner en la parte superior de las tablas creadas cuando se utilizan en las vista de archivos. \n"
+"Al no proveer dichos valores no se muestran los encabezados de la tabla."
+
+#. Default: "Columns titles"
+#: ../extender.py:27
+msgid "label_cciaafolder_columnstitles"
+msgstr "Titulo de las columnas"
+

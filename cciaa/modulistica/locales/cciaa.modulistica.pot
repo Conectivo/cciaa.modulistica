@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2011-06-24 13:58+0000\n"
+"POT-Creation-Date: 2013-01-10 18:36+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,7 +23,7 @@ msgstr ""
 msgid "Downloadable forms view"
 msgstr ""
 
-#: ../browser/modulistica.py:92
+#: ../browser/modulistica.py:102
 msgid "External link"
 msgstr ""
 
@@ -38,7 +38,7 @@ msgid "Some additional feature, mainly a new view, for make easy the download of
 msgstr ""
 
 #. Default: "Download the file ${title}"
-#: ../browser/modulistica.py:32
+#: ../browser/modulistica.py:42
 msgid "download_message"
 msgstr ""
 
@@ -47,7 +47,7 @@ msgid "external link"
 msgstr ""
 
 #. Default: "Go to link ${title}"
-#: ../browser/modulistica.py:36
+#: ../browser/modulistica.py:46
 msgid "goto_message"
 msgstr ""
 
