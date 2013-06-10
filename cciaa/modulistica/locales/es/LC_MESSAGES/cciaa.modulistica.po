@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: cciaa.modulistica\n"
-"POT-Creation-Date: 2013-01-10 18:36+0000\n"
+"POT-Creation-Date: 2013-06-10 22:47+0000\n"
 "PO-Revision-Date: 2013-01-09 01:31-0430\n"
 "Last-Translator: Leonardo J. Caballero G. <leonardocaballero@gmail.com>\n"
 "Language-Team: Leonardo J. Caballero G.\n"
@@ -29,7 +29,7 @@ msgstr "Vista de formatos a descargar"
 msgid "External link"
 msgstr "Enlace externo"
 
-#: ../browser/cciaa_modulistica_view.pt:99
+#: ../browser/cciaa_modulistica_view.pt:103
 msgid "Link"
 msgstr "Enlace"
 
@@ -44,7 +44,7 @@ msgstr "Algunas característica adicional, sobre todo una nueva vista, para faci
 msgid "download_message"
 msgstr "Descarga el archivo ${title}"
 
-#: ../browser/cciaa_modulistica_view.pt:174
+#: ../browser/cciaa_modulistica_view.pt:180
 msgid "external link"
 msgstr "enlace externo"
 

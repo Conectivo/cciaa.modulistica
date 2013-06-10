@@ -9,13 +9,15 @@
 
         <div tal:replace="structure provider:plone.abovecontenttitle" />
         
-        <h1 tal:content="here/Title" class="documentFirstHeading">Folder title</h1>
+        <h1 tal:content="here/Title" class="documentFirstHeading">
+          <tal:comment replace="nothing">Folder title</tal:comment>
+        </h1>
         
         <div tal:replace="structure provider:plone.belowcontenttitle" />
         
         <p class="documentDescription" tal:condition="here/Description">
             <span tal:content="here/Description">
-                Description
+                <tal:comment replace="nothing">Description</tal:comment>
             </span>
         </p>
         
@@ -72,9 +74,11 @@
                                    condition="python:item_type=='File'">
 
                         <td class="col2">
-                            <label class="formNameFile" tal:content="item_title_or_id">Moduloprincipale.pdf</label>
+                            <label class="formNameFile" tal:content="item_title_or_id">
+                              <tal:comment replace="nothing">Moduloprincipale.pdf</tal:comment>
+                            </label>
                                 <div class="discreet" tal:content="python: item_description">
-                                    Description
+                                    <tal:comment replace="nothing">Description</tal:comment>
                                 </div>
                         </td>
                         <td class="col1">
@@ -165,7 +169,9 @@
                             <tal:link define="isRemote python:view.isRemote(item.getRemoteUrl)">
 
                                 <td class="col2">
-                                    <label class="formNameFile" tal:content="item_title_or_id">Plone homepage</label>
+                                    <label class="formNameFile" tal:content="item_title_or_id">
+                                      <tal:comment replace="nothing">Plone homepage</tal:comment>
+                                    </label>
                                     <div class="discreet"
                                          tal:condition="item_description">
                                              <span tal:replace="item_description" />
